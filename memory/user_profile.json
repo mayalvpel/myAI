@@ -1,0 +1,11 @@
+{
+    "user": {
+        "name": "Eran",
+        "age_group": "teenager",
+        "interests": [
+            "Fortnite"
+        ]
+    },
+    "preferences": {},
+    "facts": []
+}

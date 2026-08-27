@@ -1,0 +1,22 @@
+{
+    "whatsapp": {
+        "winget": null,
+        "app_id": "5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App",
+        "display_name": "WhatsApp"
+    },
+    "telegram": {
+        "winget": "Telegram.TelegramDesktop",
+        "app_id": null,
+        "display_name": "Telegram Desktop"
+    },
+    "spotify": {
+        "winget": null,
+        "app_id": "SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify",
+        "display_name": "Spotify"
+    },
+    "calculator": {
+        "winget": null,
+        "app_id": "Microsoft.WindowsCalculator_8wekyb3d8bbwe!App",
+        "display_name": "Calculator"
+    }
+}

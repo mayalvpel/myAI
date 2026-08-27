@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jewelry Store</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .hero {
+            background: #fff;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .hero h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 30px;
+        }
+
+        .feature {
+            flex: 1 1 250px;
+            background: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .feature:hover {
+            transform: scale(1.03);
+        }
+
+        .feature h3 {
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            font-size: 0.9em;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Golden Elegance</h1>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <h2>Discover Your Perfect Piece</h2>
+            <p>Explore our collection of exquisite jewelry that blends timeless beauty with modern design.</p>
+        </div>
+
+        <div class="features">
+            <div class="feature">
+                <h3>Classic Rings</h3>
+                <p>Timeless designs crafted from premium materials.</p>
+            </div>
+            <div class="feature">
+                <h3>Modern Necklaces</h3>
+                <p>Unique styles that reflect your individuality.</p>
+            </div>
+            <div class="feature">
+                <h3>Statement Earrings</h3>
+                <p>Eye-catching designs that make a lasting impression.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Golden Elegance. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple JavaScript for animation
+        const features = document.querySelectorAll('.feature');
+        features.forEach((feature, index) => {
+            feature.style.transform = index % 2 === 0 ? 'scale(0.95)' : 'scale(1.05)';
+        });
+    </script>
+</body>
+</html>
